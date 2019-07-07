@@ -1,0 +1,62 @@
+<style>
+
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: roboto;
+  text-align: center;
+  color: white;
+}
+
+img{
+ width: 100;
+}
+
+a:link{color:yellow;text-decoration:none}
+a:visited{color:white;text-decoration:none}
+a:hover{color:#FFEBCD;text-decoration:none}
+
+  .bg {
+  padding: 50px;
+  color: white;
+  
+  /* The image used */
+  background-image: url("../photos/wall6.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table{box-shadow:0px 0px 5px #aaa;} /*sedikit bayangan yang soft*/
+table th{
+    padding:10px; 
+    font-weight:bold; 
+    background:#33B4E4; 
+    color:#fff; 
+    text-transform:uppercase;
+}
+table td{
+    padding:10px 5px;
+}
+
+h1{
+  letter-spacing: 2px;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: pink;
+   color: purple;
+   text-align: center;
+    font-family: roboto;
+}
+
+  </style>
